@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Joan OS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' href='style.css' />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body dir="ltr" style="overflow: hidden;" id="body">
+    <aside>
+
+        <div class='apps' id="about-me_app"><img src='../static/imgs/icons/about-me.webp'>
+
+            <p>About me</p>
+
+        </div>
+
+        <div class='apps' id="experience_app"><img src='../static/imgs/icons/experience.webp'>
+
+            <p style="text-align: center;">Experience</p>
+
+        </div>
+
+        <div class='apps' id="project_app"><img src='../static/imgs/icons/projects.webp'>
+
+            <p>Projects</p>
+
+        </div>
+
+        <div class='apps' id="resume_app"><img src='../static/imgs/icons/resume.webp'>
+
+            <p>Resume</p>
+
+        </div>
+
+        <div class='apps' id="contact_app"><img src='../static/imgs/icons/contact.webp'>
+
+            <p>Contact</p>
+
+        </div>
+
+        <div class='apps' id="credits_app"><img src='../static/imgs/icons/credits.webp'>
+
+            <p>Credits</p>
+
+        </div>
+
+    </aside>
+    <footer style="z-index:9999999" id="footer">
+        <section id="windows-icon-section" class="taskbar-hover windows-hover">
+            <svg id="windows-icon" viewBox="0 0 150 150" width="24px" height="24px"
+                style="width: 1.5rem; height: auto; ">
+
+                <path color="#ffffff" fill="#ffffff"
+                    d="M 59.554688 23.28125 L 14.554688 30.03125 C 13.085938 30.253906 12 31.515625 12 33 L 12 69 C 12 70.660156 13.34375 72 15 72 L 60 72 C 61.65625 72 63 70.660156 63 69 L 63 26.25 C 63 25.378906 62.617188 24.550781 61.957031 23.976562 C 61.296875 23.410156 60.417969 23.164062 59.554688 23.28125 Z M 136.957031 12.726562 C 136.296875 12.160156 135.421875 11.914062 134.554688 12.03125 L 71.554688 21.484375 C 70.085938 21.703125 69 22.964844 69 24.449219 L 69 69 C 69 70.660156 70.34375 72 72 72 L 135 72 C 136.65625 72 138 70.660156 138 69 L 138 15 C 138 14.128906 137.617188 13.300781 136.957031 12.726562 Z M 60 78 L 15 78 C 13.34375 78 12 79.339844 12 81 L 12 117 C 12 118.484375 13.085938 119.746094 14.554688 119.96875 L 59.554688 126.71875 C 59.707031 126.738281 59.851562 126.75 60 126.75 C 60.714844 126.75 61.410156 126.496094 61.957031 126.023438 C 62.617188 125.449219 63 124.621094 63 123.75 L 63 81 C 63 79.339844 61.65625 78 60 78 Z M 135 78 L 72 78 C 70.34375 78 69 79.339844 69 81 L 69 125.550781 C 69 127.035156 70.085938 128.296875 71.554688 128.515625 L 134.554688 137.96875 C 134.703125 137.988281 134.851562 138 135 138 C 135.714844 138 136.410156 137.746094 136.957031 137.273438 C 137.617188 136.699219 138 135.871094 138 135 L 138 81 C 138 79.339844 136.65625 78 135 78 Z M 135 78 " />
+
+            </svg>
+        </section>
+
+        <article class="open-windows-menu">
+            <section class="left-panel">
+                <section class="start left-panel-hover">
+                    <svg viewBox="0 0 150 150" width="24px" height="24px" style="padding-top: 10px;">
+                        <path style=" stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1;"
+                            d="M 8 44 L 88 44 L 88 52 L 8 52 Z M 8 20 L 88 20 L 88 28 L 8 28 Z M 8 68 L 88 68 L 88 76 L 8 76 Z M 8 68 " />
+                    </svg>
+                    <p style="margin-bottom: 0px;">Start</p>
+                </section>
+                <section class="details">
+                    <section class="left-bottom-panel left-panel-hover">
+                        <img src="../static/imgs/about-me/profile.jpeg" alt="profile">
+                        <p style="margin-bottom: 0px;">Joan Ramos Refusta</p>
+                    </section>
+                    <section class="left-bottom-panel left-panel-hover">
+                        <svg width="16" height="16" x="0" y="0" viewBox="0 0 477.867 477.867"
+                            style="enable-background:new 0 0 16 16" xml:space="preserve" class="">
+                            <path
+                                d="M421.649,90.317L336.316,4.983c-1.589-1.593-3.481-2.852-5.564-3.703c-2.059-0.841-4.261-1.276-6.485-1.28H102.4    C74.123,0,51.2,22.923,51.2,51.2v375.467c0,28.277,22.923,51.2,51.2,51.2h273.067c28.277,0,51.2-22.923,51.2-51.2V102.4    C426.643,97.87,424.841,93.531,421.649,90.317z M341.333,58.266l27.068,27.068h-27.068V58.266z M392.533,426.667    c0,9.426-7.641,17.067-17.067,17.067H102.4c-9.426,0-17.067-7.641-17.067-17.067V51.2c0-9.426,7.641-17.067,17.067-17.067h204.8    V102.4c0,9.426,7.641,17.067,17.067,17.067h68.267V426.667z"
+                                fill="#ffffff" data-original="#000000" class="" />
+                        </svg>
+                        <p style="margin-bottom: 0px;">Documents</p>
+                    </section>
+
+                    <section class="left-bottom-panel left-panel-hover">
+                        <svg width="16" height="16" x="0" y="0" viewBox="0 0 265.257 265.257"
+                            style="enable-background:new 0 0 16 16" xml:space="preserve">
+                            <path
+                                d="M247.757,27.677H17.5c-9.649,0-17.5,7.851-17.5,17.5V220.08c0,9.65,7.851,17.5,17.5,17.5h230.257   c9.649,0,17.5-7.85,17.5-17.5V45.177C265.257,35.528,257.407,27.677,247.757,27.677z M17.5,42.677h230.257   c1.355,0,2.5,1.145,2.5,2.5v116.474l-40.108-51.474c-2.976-3.819-7.332-6.108-11.952-6.278c-4.619-0.173-9.132,1.791-12.382,5.382   l-52.039,57.512c-1.253,1.384-4.033,1.766-5.614,0.772l-42.788-26.946c-7.332-4.619-18.063-4.143-24.958,1.105L15,176.288V45.177   C15,43.822,16.145,42.677,17.5,42.677z M247.757,222.58H17.5c-1.355,0-2.5-1.145-2.5-2.5v-24.942l54.501-41.478   c1.893-1.44,5.87-1.616,7.881-0.349l42.788,26.946c7.734,4.871,18.596,3.377,24.729-3.4l52.039-57.512   c0.312-0.345,0.535-0.45,0.708-0.457c0.131,0.005,0.385,0.141,0.671,0.508l51.94,66.658v34.025   C250.257,221.435,249.112,222.58,247.757,222.58z"
+                                fill="#ffffff" data-original="#000002" />
+                            <path
+                                d="M110.843,129.224c14.649,0,26.566-11.917,26.566-26.566s-11.918-26.566-26.566-26.566   c-14.649,0-26.566,11.918-26.566,26.566S96.194,129.224,110.843,129.224z M110.843,91.091c6.378,0,11.566,5.188,11.566,11.566   c0,6.378-5.188,11.566-11.566,11.566c-6.378,0-11.566-5.188-11.566-11.566C99.277,96.28,104.465,91.091,110.843,91.091z"
+                                fill="#ffffff" data-original="#000002" />
+                        </svg>
+                        <p style="margin-bottom: 0px;">Pictures</p>
+                    </section>
+
+                    <section class="left-bottom-panel left-panel-hover">
+                        <svg width="16" height="16" x="0" y="0" viewBox="0 0 512 512"
+                            style="enable-background:new 0 0 16 16" xml:space="preserve" class="">
+                            <path xmlns="http://www.w3.org/2000/svg"
+                                d="m272.066 512h-32.133c-25.989 0-47.134-21.144-47.134-47.133v-10.871c-11.049-3.53-21.784-7.986-32.097-13.323l-7.704 7.704c-18.659 18.682-48.548 18.134-66.665-.007l-22.711-22.71c-18.149-18.129-18.671-48.008.006-66.665l7.698-7.698c-5.337-10.313-9.792-21.046-13.323-32.097h-10.87c-25.988 0-47.133-21.144-47.133-47.133v-32.134c0-25.989 21.145-47.133 47.134-47.133h10.87c3.531-11.05 7.986-21.784 13.323-32.097l-7.704-7.703c-18.666-18.646-18.151-48.528.006-66.665l22.713-22.712c18.159-18.184 48.041-18.638 66.664.006l7.697 7.697c10.313-5.336 21.048-9.792 32.097-13.323v-10.87c0-25.989 21.144-47.133 47.134-47.133h32.133c25.989 0 47.133 21.144 47.133 47.133v10.871c11.049 3.53 21.784 7.986 32.097 13.323l7.704-7.704c18.659-18.682 48.548-18.134 66.665.007l22.711 22.71c18.149 18.129 18.671 48.008-.006 66.665l-7.698 7.698c5.337 10.313 9.792 21.046 13.323 32.097h10.87c25.989 0 47.134 21.144 47.134 47.133v32.134c0 25.989-21.145 47.133-47.134 47.133h-10.87c-3.531 11.05-7.986 21.784-13.323 32.097l7.704 7.704c18.666 18.646 18.151 48.528-.006 66.665l-22.713 22.712c-18.159 18.184-48.041 18.638-66.664-.006l-7.697-7.697c-10.313 5.336-21.048 9.792-32.097 13.323v10.871c0 25.987-21.144 47.131-47.134 47.131zm-106.349-102.83c14.327 8.473 29.747 14.874 45.831 19.025 6.624 1.709 11.252 7.683 11.252 14.524v22.148c0 9.447 7.687 17.133 17.134 17.133h32.133c9.447 0 17.134-7.686 17.134-17.133v-22.148c0-6.841 4.628-12.815 11.252-14.524 16.084-4.151 31.504-10.552 45.831-19.025 5.895-3.486 13.4-2.538 18.243 2.305l15.688 15.689c6.764 6.772 17.626 6.615 24.224.007l22.727-22.726c6.582-6.574 6.802-17.438.006-24.225l-15.695-15.695c-4.842-4.842-5.79-12.348-2.305-18.242 8.473-14.326 14.873-29.746 19.024-45.831 1.71-6.624 7.684-11.251 14.524-11.251h22.147c9.447 0 17.134-7.686 17.134-17.133v-32.134c0-9.447-7.687-17.133-17.134-17.133h-22.147c-6.841 0-12.814-4.628-14.524-11.251-4.151-16.085-10.552-31.505-19.024-45.831-3.485-5.894-2.537-13.4 2.305-18.242l15.689-15.689c6.782-6.774 6.605-17.634.006-24.225l-22.725-22.725c-6.587-6.596-17.451-6.789-24.225-.006l-15.694 15.695c-4.842 4.843-12.35 5.791-18.243 2.305-14.327-8.473-29.747-14.874-45.831-19.025-6.624-1.709-11.252-7.683-11.252-14.524v-22.15c0-9.447-7.687-17.133-17.134-17.133h-32.133c-9.447 0-17.134 7.686-17.134 17.133v22.148c0 6.841-4.628 12.815-11.252 14.524-16.084 4.151-31.504 10.552-45.831 19.025-5.896 3.485-13.401 2.537-18.243-2.305l-15.688-15.689c-6.764-6.772-17.627-6.615-24.224-.007l-22.727 22.726c-6.582 6.574-6.802 17.437-.006 24.225l15.695 15.695c4.842 4.842 5.79 12.348 2.305 18.242-8.473 14.326-14.873 29.746-19.024 45.831-1.71 6.624-7.684 11.251-14.524 11.251h-22.148c-9.447.001-17.134 7.687-17.134 17.134v32.134c0 9.447 7.687 17.133 17.134 17.133h22.147c6.841 0 12.814 4.628 14.524 11.251 4.151 16.085 10.552 31.505 19.024 45.831 3.485 5.894 2.537 13.4-2.305 18.242l-15.689 15.689c-6.782 6.774-6.605 17.634-.006 24.225l22.725 22.725c6.587 6.596 17.451 6.789 24.225.006l15.694-15.695c3.568-3.567 10.991-6.594 18.244-2.304z"
+                                fill="#ffffff" data-original="#000000" class="" />
+                            <path xmlns="http://www.w3.org/2000/svg"
+                                d="m256 367.4c-61.427 0-111.4-49.974-111.4-111.4s49.973-111.4 111.4-111.4 111.4 49.974 111.4 111.4-49.973 111.4-111.4 111.4zm0-192.8c-44.885 0-81.4 36.516-81.4 81.4s36.516 81.4 81.4 81.4 81.4-36.516 81.4-81.4-36.515-81.4-81.4-81.4z"
+                                fill="#ffffff" data-original="#000000" class="" />
+                        </svg>
+                        <p style="margin-bottom: 0px;">Settings</p>
+                    </section>
+
+                    <section class="left-bottom-panel left-panel-hover">
+                        <svg width="16" height="16" x="0" y="0" viewBox="0 0 512 512"
+                            style="enable-background:new 0 0 16 16" xml:space="preserve" class="">
+                            <path
+                                d="M336.709,74.843c-10.322-3.944-21.88,1.219-25.825,11.537c-3.945,10.316,1.22,21.879,11.536,25.824    C393.115,139.239,442,207.384,442,286c0,102.561-83.439,186-186,186S70,388.561,70,286c0-78.659,48.908-146.766,119.573-173.793    c10.317-3.946,15.481-15.509,11.536-25.825c-3.947-10.317-15.512-15.48-25.825-11.536C89.185,107.777,30,190.692,30,286    c0,124.922,101.09,226,226,226c124.922,0,226-101.09,226-226C482,190.65,422.778,107.759,336.709,74.843z"
+                                fill="#ffffff" data-original="#000000" class="" />
+                            <path
+                                d="M256,0c-11.046,0-20,8.954-20,20v195.851c0,11.046,8.954,20,20,20s20-8.955,20-20V20C276,8.954,267.046,0,256,0z"
+                                fill="#ffffff" data-original="#000000" class="" />
+                        </svg>
+                        <p style="margin-bottom: 0px;">Power</p>
+                    </section>
+                </section>
+            </section>
+
+            <section class="middle-panel">
+            </section>
+            <section class="right-panel">
+
+            </section>
+        </article>
+
+
+
+        <section class="pinned-apps">
+            <div class="taskbar-app taskbar-hover" id="about-me_bottom">
+                <img src="../static/imgs/icons/about-me.webp" alt="About me" />
+            </div>
+            <div class="taskbar-app taskbar-hover" id="experience_bottom">
+                <img src="../static/imgs/icons/experience.webp" alt="Experience" />
+            </div>
+            <div class="taskbar-app taskbar-hover" id="contact_bottom">
+                <img src="../static/imgs/icons/contact.webp" alt="Contact" />
+            </div>
+            <div class="taskbar-app taskbar-hover" id="credits_bottom">
+                <img src="../static/imgs/icons/credits.webp" alt="Credits" />
+            </div>
+        </section>
+
+
+        <article class="small-taskbar-info" style="position:fixed; right:0; width: 245px;">
+            <section class="shown-apps">
+                <span id="expand-other-apps" class="taskbar-hover">
+                    <svg width="16" height="16" x="0" y="0" viewBox="0 0 490.8 490.8"
+                        style="enable-background:new 0 0 16 16" xml:space="preserve" class="">
+                        <path xmlns="http://www.w3.org/2000/svg"
+                            d="M135.685,3.128c-4.237-4.093-10.99-3.975-15.083,0.262c-3.992,4.134-3.992,10.687,0,14.82  l227.115,227.136L120.581,472.461c-4.237,4.093-4.354,10.845-0.262,15.083c4.093,4.237,10.845,4.354,15.083,0.262  c0.089-0.086,0.176-0.173,0.262-0.262l234.667-234.667c4.164-4.165,4.164-10.917,0-15.083L135.685,3.128z"
+                            fill="#ffffff" data-original="#f44336" class="" />
+                        <path xmlns="http://www.w3.org/2000/svg"
+                            d="M128.133,490.68c-5.891,0.011-10.675-4.757-10.686-10.648c-0.005-2.84,1.123-5.565,3.134-7.571l227.136-227.115  L120.581,18.232c-4.171-4.171-4.171-10.933,0-15.104c4.171-4.171,10.933-4.171,15.104,0l234.667,234.667  c4.164,4.165,4.164,10.917,0,15.083L135.685,487.544C133.685,489.551,130.967,490.68,128.133,490.68z"
+                            fill="#ffffff" data-original="#000000" class="" />
+
+                    </svg>
+                </span>
+                <div class="image-container-win taskbar-hover">
+                    <svg class="taskbar-hover" width="16" height="16" x="0" y="0" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 16 16" xml:space="preserve" class="">
+                        <path d="M56.5,126.354V197H0v118h56.5v70.647H512V126.354H56.5z M474.5,348h-380V164h380V348z"
+                            fill="#ffffff" data-original="#000000" />
+                        <rect x="124.5" y="194" width="320" height="124" fill="#ffffff" data-original="#000000" />
+                    </svg>
+                </div>
+                <div class="image-container-win taskbar-hover">
+                    <svg width="16" height="16" x="0" y="0" viewBox="0 0 512 512"
+                        style="enable-background:new 0 0 16 16" xml:space="preserve" class="">
+                        <path xmlns="http://www.w3.org/2000/svg"
+                            d="m60 512c33.089844 0 61-26.910156 61-60s-27.910156-61-61-61-60 27.910156-60 61 26.910156 60 60 60zm0 0"
+                            fill="#ffffff" data-original="#000000" class="" />
+                        <path xmlns="http://www.w3.org/2000/svg"
+                            d="m15 300h30c91.125 0 167 75.871094 167 167v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-124.265625-102.734375-227-227-227h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15zm0 0"
+                            fill="#ffffff" data-original="#000000" class="" />
+                        <path xmlns="http://www.w3.org/2000/svg"
+                            d="m15 180h30c157.402344 0 287 129.597656 287 287v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-190.539062-156.460938-347-347-347h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15zm0 0"
+                            fill="#ffffff" data-original="#000000" class="" />
+                        <path xmlns="http://www.w3.org/2000/svg"
+                            d="m45 0h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15h30c223.675781 0 407 183.324219 407 407v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-256.8125-210.1875-467-467-467zm0 0"
+                            fill="#ffffff" data-original="#000000" class="" />
+                    </svg>
+                </div>
+            </section>
+
+            <section class="date-section taskbar-hover">
+                <time id="hours-minutes" datetime=""></time>
+                <time id="current-date" datetime=""></time>
+            </section>
+
+            <section class="notifications-bar taskbar-hover">
+                <img src="../static/imgs/icons/notification.webp" alt="" />
+            </section>
+
+            <section class="show-desktop taskbar-hover">
+                <hr />
+            </section>
+        </article>
+    </footer>
+
+    <div id="about-me" class="about-me" style="display: none;">
+        <div class="title-bar" id="titleBar">
+            <div class="title">About me</div>
+            <div class="window-controls">
+                <div class="window-button restore"></div>
+                <div class="window-button minimize"></div>
+                <div class="window-button close"></div>
+            </div>
+        </div>
+        <nav class="navbar bg-black" style="display: flex; justify-content: center;">
+            <div class="container">
+                <div id="nav-bar" class="row col-9">
+                    <div id="logo-div" class="col mt-2"> About me
+                    </div>
+                    <div class="col mt-1 d-flex align-items-center justify-content-center">
+                        <input id="search-bar" class="form-control" type="search" placeholder="Search">
+                    </div>
+                    <div id="nav-buttons" class="col d-flex align-items-center gap-2">
+                        <img class="ms-2" id="profile" src="../static/imgs/about-me/profile.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div style="margin: 0% 12%;">
+                <section id="post-side" class="border-bottom p-0 mt-4 bg-black">
+                    <article class="bg-black">
+                        <div id="post-top-bar" class="p-2 d-flex justify-content-between align-items-center">
+                            <div style="display: flex;">
+                                <div>
+                                    <img id="post-profile-story" src="../static/imgs/about-me/profile.jpeg" alt="">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label class="d-inline ps-2">
+                                        <span id="post-nick">jrefusta</span>
+                                    </label>
+                                    <label class="d-inline ps-2">
+                                        <span id="show-comments">Babyhood</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <svg id="dots" aria-label="More options" class="_8-yf5 " color="white" fill="white"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12" cy="12" r="1.5"></circle>
+                                    <circle cx="6.5" cy="12" r="1.5"></circle>
+                                    <circle cx="17.5" cy="12" r="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="post" src="../static/imgs/about-me/childhood.webp" id="post_1" alt="">
+                            <div class="next-photo" id="next_1"></div>
+                            <div class="prev-photo" id="prev_1"></div>
+
+                        </div>
+                        <div id="bottom-bar">
+                            <div class="mt-3">
+
+                                <svg class="buttons" id="like_1" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                    </path>
+                                </svg>
+
+                                <svg class="buttons" id="liked_1" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    width="24" height="24" role="img" viewBox="0 0 48 48"
+                                    style="display: none; margin-left: 1rem;">
+                                    <image id="Capa_1" y="0" width="48" height="48"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAACj0lEQVR4nO2dW3KDMAxFgel+uoXuf1N0ho4pCbYxth5X5J6v/gQknYgY29B5/f6ZFFkbDz1rBtFIa6wJlZi/hI93N6nS5ywE9caa+7xYvBJCRhO7Oqa0HOh4R4RoJFY7z6iYEPEugye1ZORyGCbeux3ikVju/K3fvmjx3uoQ7+SOtMQSLd6NViFIySVqMUWLd6dFCGJyiVxs0eJ94UoIcnKJtfA3KtUYa0IiJJfwGkn1Uoy1JCRSclHJ1rj3PoQokRPC7rDjVGt2CBjvQtgd9rzUnB0CxlEIu8OPvfbsEDCSEHaHP5sDdggYFALGwssVFCs7BAwKAYNCwKAQMCgEDAoBg0LAoBAwKAQMCgGDQsCgEDAoBAwKAYNCwKAQMBaQR5LJHzM7BAwKASMJ4WXLn80BOwSMoxB2iR977dkhYLwLYZfY81JzdggYOSHsEjtOtS51CKXok60xL1lg1ISwS/Qo1vaqQyhFnmpNWy5ZlCLHZS1bf0MoZZymGt75UaeUflTeKDdRShe3atYz7KWUdm7Xqvc+hFKuMX1N7EQpVbprM3qnTilnhmoiMXVCKf8M10JqLotShGogObn4yVLEcpee7f00KbN0zhrT7+JBgqKSo+Z6yJOlqOWmvUD1RCmqOVmsGD5JinouVku4T5BikoPlmnpUKaaDFOtNDtGkmMfrseskihSXOL22AaHfq7jF5r0vC1GKa0wIG+WQpLjHgrJzEUEKxBcDaSupZ0FguhRtb69HYaB+xxA3W1sWCG5QIf3vu6VIhdJ66zbskBv9cQSNwkHfmEZ4PkSygPCzBFEe2JEoZIgpm0hPUI0UNMykZrRH2noKG2qGGXWUVaN1BBZy/SWikERJTNzVyWmafgHRqzxWkCtkGAAAAABJRU5ErkJggg==" />
+                                </svg>
+
+
+                                <svg class="buttons" aria-label="Comment" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <svg class="buttons" aria-label="Share Post" class="_8-yf5 " color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                                <svg class="buttons" aria-label="Save" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <div class="d-flex mt-2 ms-2 ps-2">
+                                <img class="border me-2" id="subtitle-profile" src="../static/imgs/about-me/tina.webp"
+                                    alt="">
+                                <p>Liked by <span id="weight-600">mom</span> and <span id="weight-600">1256
+                                        others</span></p>
+                            </div>
+                            <div class="lh-1" style="margin: 0%  2%;">
+                                <div class="d-flex flex-wrap">
+                                    <h6 class="ms-1">jrefusta</h6>
+                                    <p style="text-align: justify;  flex-basis: 100%; line-height: 1.5;" class="ms-1">
+                                        Hello there! 👋 I'm Joan, and these are some of my very first baby pictures. I
+                                        was born and raised in El Masnou,
+                                        Barcelona, Spain, a charming coastal town by the sea.<br><br> As you can
+                                        imagine, I
+                                        don't hold many memories from this time, but
+                                        my parents have always told me that I was a curious and cheerful baby 👶.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p id="show-comments" class="ms-1">View all 182 comments</p>
+                                </div>
+                                <div class="d-flex justify-content-between pe-4">
+                                    <div class="d-flex">
+                                        <h6 class="ms-1">mom</h6>
+                                        <p class="ms-1">so cute!</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p id="time-info" class="ms-1">JUNE 5TH 1997</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+                <section id="post-side" class="border-bottom p-0 mt-4 bg-black">
+                    <article class="bg-black">
+                        <div id="post-top-bar" class="p-2 d-flex justify-content-between">
+                            <div style="display: flex;">
+                                <div>
+                                    <img id="post-profile-story" src="../static/imgs/about-me/profile.jpeg" alt="">
+
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label class="d-inline ps-2">
+                                        <span id="post-nick">jrefusta</span>
+                                    </label>
+                                    <label class="d-inline ps-2">
+                                        <span id="show-comments">Childhood</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <svg id="dots" aria-label="More options" class="_8-yf5 " color="white" fill="white"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12" cy="12" r="1.5"></circle>
+                                    <circle cx="6.5" cy="12" r="1.5"></circle>
+                                    <circle cx="17.5" cy="12" r="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="post" src="../static/imgs/about-me/childhood_1.webp" id="post_2" alt="">
+                            <div class="next-photo" id="next_2"></div>
+                            <div class="prev-photo" id="prev_2"></div>
+
+                        </div>
+                        <div id="bottom-bar">
+                            <div class="mt-3"><svg class="buttons" id="like_2" aria-label="Like" color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                    </path>
+                                </svg>
+
+                                <svg class="buttons" id="liked_2" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    width="24" height="24" role="img" viewBox="0 0 48 48"
+                                    style="display: none; margin-left: 1rem;">
+                                    <image id="Capa_1" y="0" width="48" height="48"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAACj0lEQVR4nO2dW3KDMAxFgel+uoXuf1N0ho4pCbYxth5X5J6v/gQknYgY29B5/f6ZFFkbDz1rBtFIa6wJlZi/hI93N6nS5ywE9caa+7xYvBJCRhO7Oqa0HOh4R4RoJFY7z6iYEPEugye1ZORyGCbeux3ikVju/K3fvmjx3uoQ7+SOtMQSLd6NViFIySVqMUWLd6dFCGJyiVxs0eJ94UoIcnKJtfA3KtUYa0IiJJfwGkn1Uoy1JCRSclHJ1rj3PoQokRPC7rDjVGt2CBjvQtgd9rzUnB0CxlEIu8OPvfbsEDCSEHaHP5sDdggYFALGwssVFCs7BAwKAYNCwKAQMCgEDAoBg0LAoBAwKAQMCgGDQsCgEDAoBAwKAYNCwKAQMBaQR5LJHzM7BAwKASMJ4WXLn80BOwSMoxB2iR977dkhYLwLYZfY81JzdggYOSHsEjtOtS51CKXok60xL1lg1ISwS/Qo1vaqQyhFnmpNWy5ZlCLHZS1bf0MoZZymGt75UaeUflTeKDdRShe3atYz7KWUdm7Xqvc+hFKuMX1N7EQpVbprM3qnTilnhmoiMXVCKf8M10JqLotShGogObn4yVLEcpee7f00KbN0zhrT7+JBgqKSo+Z6yJOlqOWmvUD1RCmqOVmsGD5JinouVku4T5BikoPlmnpUKaaDFOtNDtGkmMfrseskihSXOL22AaHfq7jF5r0vC1GKa0wIG+WQpLjHgrJzEUEKxBcDaSupZ0FguhRtb69HYaB+xxA3W1sWCG5QIf3vu6VIhdJ66zbskBv9cQSNwkHfmEZ4PkSygPCzBFEe2JEoZIgpm0hPUI0UNMykZrRH2noKG2qGGXWUVaN1BBZy/SWikERJTNzVyWmafgHRqzxWkCtkGAAAAABJRU5ErkJggg==" />
+                                </svg>
+
+                                <svg class="buttons" aria-label="Comment" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <svg class="buttons" aria-label="Share Post" class="_8-yf5 " color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                                <svg class="buttons" aria-label="Save" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <div class="d-flex mt-2 ms-2 ps-2">
+                                <img class="border me-2" id="subtitle-profile" src="../static/imgs/about-me/sister.jpeg"
+                                    alt="">
+                                <p>Liked by <span id="weight-600">sister</span> and <span id="weight-600">678
+                                        others</span></p>
+                            </div>
+                            <div class="lh-1" style="margin: 0%  2%;">
+                                <div class="d-flex flex-wrap">
+                                    <h6 class="ms-1">jrefusta</h6>
+                                    <p style="text-align: justify;  flex-basis: 100%; line-height: 1.5;" class="ms-1">
+                                        During my childhood, I was an incredibly playful child and had a wonderful time
+                                        with my parents, who provided unwavering
+                                        support, and with my sister, my partner in crime. <br><br> Together, we
+                                        shared unforgettable moments filled with
+                                        laughter and adventure.🪁
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p id="show-comments" class="ms-1">View all 32 comments</p>
+                                </div>
+                                <div class="d-flex justify-content-between pe-4">
+                                    <div class="d-flex">
+                                        <h6 class="ms-1">sister</h6>
+                                        <p class="ms-1">Those were the days! We always had so much fun! 🤹‍♀️
+                                        </p>
+                                    </div>
+                                    <img id="comment-like" class="mt-1"
+                                        src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" alt="">
+                                </div>
+                                <div>
+                                    <p id="time-info" class="ms-1">OCTOBER 23TH 2005</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+                <section id="post-side" class="border-bottom p-0 mt-4 bg-black">
+                    <article class="bg-black">
+                        <div id="post-top-bar" class="p-2 d-flex justify-content-between align-items-center">
+                            <div style="display: flex;">
+                                <div>
+                                    <img id="post-profile-story" src="../static/imgs/about-me/profile.jpeg" alt="">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label class="d-inline ps-2">
+                                        <span id="post-nick">jrefusta</span>
+                                    </label>
+                                    <label class="d-inline ps-2">
+                                        <span id="show-comments">Teenagehood</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <svg id="dots" aria-label="More options" class="_8-yf5 " color="white" fill="white"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12" cy="12" r="1.5"></circle>
+                                    <circle cx="6.5" cy="12" r="1.5"></circle>
+                                    <circle cx="17.5" cy="12" r="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="post" src="../static/imgs/about-me/nintendo-ds.webp" id="post_3" alt="">
+                            <div class="next-photo" id="next_3"></div>
+                            <div class="prev-photo" id="prev_3"></div>
+
+                        </div>
+                        <div id="bottom-bar">
+                            <div class="mt-3">
+                                <svg class="buttons" id="like_3" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                    </path>
+                                </svg>
+
+                                <svg class="buttons" id="liked_3" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    width="24" height="24" role="img" viewBox="0 0 48 48"
+                                    style="display: none; margin-left: 1rem;">
+                                    <image id="Capa_1" y="0" width="48" height="48"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAACj0lEQVR4nO2dW3KDMAxFgel+uoXuf1N0ho4pCbYxth5X5J6v/gQknYgY29B5/f6ZFFkbDz1rBtFIa6wJlZi/hI93N6nS5ywE9caa+7xYvBJCRhO7Oqa0HOh4R4RoJFY7z6iYEPEugye1ZORyGCbeux3ikVju/K3fvmjx3uoQ7+SOtMQSLd6NViFIySVqMUWLd6dFCGJyiVxs0eJ94UoIcnKJtfA3KtUYa0IiJJfwGkn1Uoy1JCRSclHJ1rj3PoQokRPC7rDjVGt2CBjvQtgd9rzUnB0CxlEIu8OPvfbsEDCSEHaHP5sDdggYFALGwssVFCs7BAwKAYNCwKAQMCgEDAoBg0LAoBAwKAQMCgGDQsCgEDAoBAwKAYNCwKAQMBaQR5LJHzM7BAwKASMJ4WXLn80BOwSMoxB2iR977dkhYLwLYZfY81JzdggYOSHsEjtOtS51CKXok60xL1lg1ISwS/Qo1vaqQyhFnmpNWy5ZlCLHZS1bf0MoZZymGt75UaeUflTeKDdRShe3atYz7KWUdm7Xqvc+hFKuMX1N7EQpVbprM3qnTilnhmoiMXVCKf8M10JqLotShGogObn4yVLEcpee7f00KbN0zhrT7+JBgqKSo+Z6yJOlqOWmvUD1RCmqOVmsGD5JinouVku4T5BikoPlmnpUKaaDFOtNDtGkmMfrseskihSXOL22AaHfq7jF5r0vC1GKa0wIG+WQpLjHgrJzEUEKxBcDaSupZ0FguhRtb69HYaB+xxA3W1sWCG5QIf3vu6VIhdJ66zbskBv9cQSNwkHfmEZ4PkSygPCzBFEe2JEoZIgpm0hPUI0UNMykZrRH2noKG2qGGXWUVaN1BBZy/SWikERJTNzVyWmafgHRqzxWkCtkGAAAAABJRU5ErkJggg==" />
+                                </svg>
+
+                                <svg class="buttons" aria-label="Comment" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <svg class="buttons" aria-label="Share Post" class="_8-yf5 " color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                                <svg class="buttons" aria-label="Save" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <div class="d-flex mt-2 ms-2 ps-2">
+                                <img class="border me-2" id="subtitle-profile" src="../static/imgs/about-me/tina_2.jpeg"
+                                    alt="">
+                                <p>Liked by <span id="weight-600">dad</span> and <span id="weight-600">901
+                                        others</span></p>
+                            </div>
+                            <div class="lh-1" style="margin: 0%  2%;">
+                                <div class="d-flex flex-wrap">
+                                    <h6 class="ms-1">jrefusta</h6>
+                                    <p style="text-align: justify;  flex-basis: 100%; line-height: 1.5;" class="ms-1">
+
+
+                                        Since my early teenage years, my curiosity and interest in technology grew,
+                                        especially in entertainment fields such as
+                                        games and movies.
+                                        <br><br>
+                                        During those years I spent a lot of time in front of a screen, whether it was a
+                                        PC or a console.
+                                        <br><br>
+                                        That initial interest eventually turned into a deep passion. 🎮
+                                </div>
+
+                                <div>
+                                    <p id="show-comments" class="ms-1">View all 145 comments</p>
+                                </div>
+                                <div class="d-flex justify-content-between pe-4">
+                                    <div class="d-flex">
+                                        <h6 class="ms-1">dad</h6>
+                                        <p class="ms-1">are you winning, son?</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p id="time-info" class="ms-1">JULY 1ST 2010</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+                <section id="post-side" class="border-bottom p-0 mt-4 bg-black">
+                    <article class="bg-black">
+                        <div id="post-top-bar" class="p-2 d-flex justify-content-between align-items-center">
+                            <div style="display: flex;">
+                                <div>
+                                    <img id="post-profile-story" src="../static/imgs/about-me/profile.jpeg" alt="">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label class="d-inline ps-2">
+                                        <span id="post-nick">jrefusta</span>
+                                    </label>
+                                    <label class="d-inline ps-2">
+                                        <span id="show-comments">Career</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <svg id="dots" aria-label="More options" class="_8-yf5 " color="white" fill="white"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12" cy="12" r="1.5"></circle>
+                                    <circle cx="6.5" cy="12" r="1.5"></circle>
+                                    <circle cx="17.5" cy="12" r="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="post" src="../static/imgs/about-me/uni.webp" id="post_4" alt="">
+                            <div class="next-photo" id="next_4"></div>
+                            <div class="prev-photo" id="prev_4"></div>
+
+                        </div>
+                        <div id="bottom-bar">
+                            <div class="mt-3">
+                                <svg class="buttons" id="like_4" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                    </path>
+                                </svg>
+
+                                <svg class="buttons" id="liked_4" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    width="24" height="24" role="img" viewBox="0 0 48 48"
+                                    style="display: none; margin-left: 1rem;">
+                                    <image id="Capa_1" y="0" width="48" height="48"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAACj0lEQVR4nO2dW3KDMAxFgel+uoXuf1N0ho4pCbYxth5X5J6v/gQknYgY29B5/f6ZFFkbDz1rBtFIa6wJlZi/hI93N6nS5ywE9caa+7xYvBJCRhO7Oqa0HOh4R4RoJFY7z6iYEPEugye1ZORyGCbeux3ikVju/K3fvmjx3uoQ7+SOtMQSLd6NViFIySVqMUWLd6dFCGJyiVxs0eJ94UoIcnKJtfA3KtUYa0IiJJfwGkn1Uoy1JCRSclHJ1rj3PoQokRPC7rDjVGt2CBjvQtgd9rzUnB0CxlEIu8OPvfbsEDCSEHaHP5sDdggYFALGwssVFCs7BAwKAYNCwKAQMCgEDAoBg0LAoBAwKAQMCgGDQsCgEDAoBAwKAYNCwKAQMBaQR5LJHzM7BAwKASMJ4WXLn80BOwSMoxB2iR977dkhYLwLYZfY81JzdggYOSHsEjtOtS51CKXok60xL1lg1ISwS/Qo1vaqQyhFnmpNWy5ZlCLHZS1bf0MoZZymGt75UaeUflTeKDdRShe3atYz7KWUdm7Xqvc+hFKuMX1N7EQpVbprM3qnTilnhmoiMXVCKf8M10JqLotShGogObn4yVLEcpee7f00KbN0zhrT7+JBgqKSo+Z6yJOlqOWmvUD1RCmqOVmsGD5JinouVku4T5BikoPlmnpUKaaDFOtNDtGkmMfrseskihSXOL22AaHfq7jF5r0vC1GKa0wIG+WQpLjHgrJzEUEKxBcDaSupZ0FguhRtb69HYaB+xxA3W1sWCG5QIf3vu6VIhdJ66zbskBv9cQSNwkHfmEZ4PkSygPCzBFEe2JEoZIgpm0hPUI0UNMykZrRH2noKG2qGGXWUVaN1BBZy/SWikERJTNzVyWmafgHRqzxWkCtkGAAAAABJRU5ErkJggg==" />
+                                </svg>
+
+                                <svg class="buttons" aria-label="Comment" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <svg class="buttons" aria-label="Share Post" class="_8-yf5 " color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                                <svg class="buttons" aria-label="Save" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <div class="d-flex mt-2 ms-2 ps-2">
+                                <img class="border me-2" id="subtitle-profile"
+                                    src="../static/imgs/about-me/logo-upc.webp" style="background-color: white;" alt="">
+                                <p>Liked by <span id="weight-600">upc</span> and <span id="weight-600">1231
+                                        others</span></p>
+                            </div>
+                            <div class="lh-1" style="margin: 0%  2%;">
+                                <div class="d-flex flex-wrap">
+                                    <h6 class="ms-1">jrefusta</h6>
+                                    <p style="text-align: justify;  flex-basis: 100%; line-height: 1.5;" class="ms-1">
+
+                                        I have always been fascinated by the 3D world, mathematics and geometry. So much
+                                        so that I even initially considered studying architecture before deciding on
+                                        Computer Science. But I finally got into Computer Science since it had always
+                                        been my passion. 💻
+                                        <br><br>
+                                        Once entering university, I chose to specialize in Computing, which
+                                        embrace fields such as Artificial
+                                        Intelligence, algorithms and computer graphics. During my education, I
+                                        selected relevant subjects such as Video Games,
+                                        Computational Geometry, and Design of curves and surfaces. 📚
+                                        <br><br>
+                                        Finally, in 2021, I culminated my academic career by graduating as a Computer
+                                        Engineer at the Universitat Politècnica de Catalunya (FIB, UPC), where I could
+                                        materialize my passion for computing and
+                                        disciplines related to the 3D world. 🎓
+                                        <br><br>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p id="show-comments" class="ms-1">View all 334 comments</p>
+                                </div>
+                                <div class="d-flex justify-content-between pe-4">
+                                    <div class="d-flex">
+                                        <h6 class="ms-1">upc</h6>
+                                        <p class="ms-1">Congratulations Joan!</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p id="time-info" class="ms-1">JUNE 21ST 2021</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+                <section id="post-side" class="border-bottom p-0 mt-4 bg-black">
+                    <article class="bg-black">
+                        <div id="post-top-bar" class="p-2 d-flex justify-content-between align-items-center">
+                            <div style="display: flex;">
+                                <div>
+                                    <img id="post-profile-story" src="../static/imgs/about-me/profile.jpeg" alt="">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label class="d-inline ps-2">
+                                        <span id="post-nick">jrefusta</span>
+                                    </label>
+                                    <label class="d-inline ps-2">
+                                        <span id="show-comments">Asturias, Tarrragona and Galicia</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <svg id="dots" aria-label="More options" class="_8-yf5 " color="white" fill="white"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12" cy="12" r="1.5"></circle>
+                                    <circle cx="6.5" cy="12" r="1.5"></circle>
+                                    <circle cx="17.5" cy="12" r="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="post" src="../static/imgs/about-me/travel.webp" id="post_5" alt="">
+                            <div class="next-photo" id="next_5"></div>
+                            <div class="prev-photo" id="prev_5"></div>
+
+                        </div>
+                        <div id="bottom-bar">
+                            <div class="mt-3">
+                                <svg class="buttons" id="like_5" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                    </path>
+                                </svg>
+
+                                <svg class="buttons" id="liked_5" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    width="24" height="24" role="img" viewBox="0 0 48 48"
+                                    style="display: none; margin-left: 1rem;">
+                                    <image id="Capa_1" y="0" width="48" height="48"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAACj0lEQVR4nO2dW3KDMAxFgel+uoXuf1N0ho4pCbYxth5X5J6v/gQknYgY29B5/f6ZFFkbDz1rBtFIa6wJlZi/hI93N6nS5ywE9caa+7xYvBJCRhO7Oqa0HOh4R4RoJFY7z6iYEPEugye1ZORyGCbeux3ikVju/K3fvmjx3uoQ7+SOtMQSLd6NViFIySVqMUWLd6dFCGJyiVxs0eJ94UoIcnKJtfA3KtUYa0IiJJfwGkn1Uoy1JCRSclHJ1rj3PoQokRPC7rDjVGt2CBjvQtgd9rzUnB0CxlEIu8OPvfbsEDCSEHaHP5sDdggYFALGwssVFCs7BAwKAYNCwKAQMCgEDAoBg0LAoBAwKAQMCgGDQsCgEDAoBAwKAYNCwKAQMBaQR5LJHzM7BAwKASMJ4WXLn80BOwSMoxB2iR977dkhYLwLYZfY81JzdggYOSHsEjtOtS51CKXok60xL1lg1ISwS/Qo1vaqQyhFnmpNWy5ZlCLHZS1bf0MoZZymGt75UaeUflTeKDdRShe3atYz7KWUdm7Xqvc+hFKuMX1N7EQpVbprM3qnTilnhmoiMXVCKf8M10JqLotShGogObn4yVLEcpee7f00KbN0zhrT7+JBgqKSo+Z6yJOlqOWmvUD1RCmqOVmsGD5JinouVku4T5BikoPlmnpUKaaDFOtNDtGkmMfrseskihSXOL22AaHfq7jF5r0vC1GKa0wIG+WQpLjHgrJzEUEKxBcDaSupZ0FguhRtb69HYaB+xxA3W1sWCG5QIf3vu6VIhdJ66zbskBv9cQSNwkHfmEZ4PkSygPCzBFEe2JEoZIgpm0hPUI0UNMykZrRH2noKG2qGGXWUVaN1BBZy/SWikERJTNzVyWmafgHRqzxWkCtkGAAAAABJRU5ErkJggg==" />
+                                </svg>
+
+                                <svg class="buttons" aria-label="Comment" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <svg class="buttons" aria-label="Share Post" class="_8-yf5 " color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                                <svg class="buttons" aria-label="Save" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <div class="d-flex mt-2 ms-2 ps-2">
+                                <img class="border me-2" id="subtitle-profile" src="../static/imgs/about-me/tina.webp"
+                                    alt="">
+                                <p>Liked by <span id="weight-600">friend</span> and <span id="weight-600">775
+                                        others</span></p>
+                            </div>
+                            <div class="lh-1" style="margin: 0%  2%;">
+                                <div class="d-flex flex-wrap">
+                                    <h6 class="ms-1">jrefusta</h6>
+                                    <p style="text-align: justify;  flex-basis: 100%; line-height: 1.5;" class="ms-1">
+
+                                        I have always found time to dedicate to another of my favorite hobbies:
+                                        traveling and sharing special moments with friends.
+                                        <br><br>
+                                        During my adventures
+                                        in Asturias, Tarragona, and Galicia, within Spain,
+                                        I have immersed myself in their natural
+                                        beauty, explored new cultures, and created unforgettable memories with my loved
+                                        ones.
+                                        <br><br>
+                                        These destinations are just a few
+                                        among many that I have visited in Spain. Each travel trip has been an
+                                        opportunity to disconnect, discover fascinating
+                                        places, and enrich my life with unique experiences. 🚞
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p id="show-comments" class="ms-1">View all 21 comments</p>
+                                </div>
+                                <div class="d-flex justify-content-between pe-4">
+                                    <div class="d-flex">
+                                        <h6 class="ms-1">friend</h6>
+                                        <p class="ms-1">landscape is stunning 🏞</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p id="time-info" class="ms-1">MAY 3RD 2019</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+                <section id="post-side" class="border-bottom p-0 mt-4 bg-black">
+                    <article class="bg-black">
+                        <div id="post-top-bar" class="p-2 d-flex justify-content-between align-items-center">
+                            <div style="display: flex;">
+                                <div>
+                                    <img id="post-profile-story" src="../static/imgs/about-me/profile.jpeg" alt="">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label class="d-inline ps-2">
+                                        <span id="post-nick">jrefusta</span>
+                                    </label>
+                                    <label class="d-inline ps-2">
+                                        <span id="show-comments">IndieDevDay 2023</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <svg id="dots" aria-label="More options" class="_8-yf5 " color="white" fill="white"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12" cy="12" r="1.5"></circle>
+                                    <circle cx="6.5" cy="12" r="1.5"></circle>
+                                    <circle cx="17.5" cy="12" r="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="post" src="../static/imgs/about-me/starduster.webp" id="post_6" alt="">
+                            <div class="next-photo" id="next_6"></div>
+                            <div class="prev-photo" id="prev_6"></div>
+
+                        </div>
+                        <div id="bottom-bar">
+                            <div class="mt-3"><svg class="buttons" id="like_6" aria-label="Like" color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                    </path>
+                                </svg>
+
+                                <svg class="buttons" id="liked_6" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    width="24" height="24" role="img" viewBox="0 0 48 48"
+                                    style="display: none; margin-left: 1rem;">
+                                    <image id="Capa_1" y="0" width="48" height="48"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAACj0lEQVR4nO2dW3KDMAxFgel+uoXuf1N0ho4pCbYxth5X5J6v/gQknYgY29B5/f6ZFFkbDz1rBtFIa6wJlZi/hI93N6nS5ywE9caa+7xYvBJCRhO7Oqa0HOh4R4RoJFY7z6iYEPEugye1ZORyGCbeux3ikVju/K3fvmjx3uoQ7+SOtMQSLd6NViFIySVqMUWLd6dFCGJyiVxs0eJ94UoIcnKJtfA3KtUYa0IiJJfwGkn1Uoy1JCRSclHJ1rj3PoQokRPC7rDjVGt2CBjvQtgd9rzUnB0CxlEIu8OPvfbsEDCSEHaHP5sDdggYFALGwssVFCs7BAwKAYNCwKAQMCgEDAoBg0LAoBAwKAQMCgGDQsCgEDAoBAwKAYNCwKAQMBaQR5LJHzM7BAwKASMJ4WXLn80BOwSMoxB2iR977dkhYLwLYZfY81JzdggYOSHsEjtOtS51CKXok60xL1lg1ISwS/Qo1vaqQyhFnmpNWy5ZlCLHZS1bf0MoZZymGt75UaeUflTeKDdRShe3atYz7KWUdm7Xqvc+hFKuMX1N7EQpVbprM3qnTilnhmoiMXVCKf8M10JqLotShGogObn4yVLEcpee7f00KbN0zhrT7+JBgqKSo+Z6yJOlqOWmvUD1RCmqOVmsGD5JinouVku4T5BikoPlmnpUKaaDFOtNDtGkmMfrseskihSXOL22AaHfq7jF5r0vC1GKa0wIG+WQpLjHgrJzEUEKxBcDaSupZ0FguhRtb69HYaB+xxA3W1sWCG5QIf3vu6VIhdJ66zbskBv9cQSNwkHfmEZ4PkSygPCzBFEe2JEoZIgpm0hPUI0UNMykZrRH2noKG2qGGXWUVaN1BBZy/SWikERJTNzVyWmafgHRqzxWkCtkGAAAAABJRU5ErkJggg==" />
+                                </svg>
+
+                                <svg class="buttons" aria-label="Comment" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <svg class="buttons" aria-label="Share Post" class="_8-yf5 " color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                                <svg class="buttons" aria-label="Save" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <div class="d-flex mt-2 ms-2 ps-2">
+                                <img class="border me-2" id="subtitle-profile"
+                                    src="../static/imgs/about-me/indiedevday.jpeg" alt="">
+                                <p>Liked by <span id="weight-600">indiedevday</span> and <span id="weight-600">1734
+                                        others</span></p>
+                            </div>
+                            <div class="lh-1" style="margin: 0%  2%;">
+                                <div class="d-flex flex-wrap">
+                                    <h6 class="ms-1">jrefusta</h6>
+                                    <p style="text-align: justify;  flex-basis: 100%; line-height: 1.5;" class="ms-1">
+
+                                        As someone who loves being part of the video game creation process, I've
+                                        participated in various Game Jams. Sometimes,
+                                        I team up with my friend Victor, and other times, I work as a solodev.
+                                        These events really push my creativity. 👾
+                                        <br><br>
+                                        Together, Victor and I took one of our projects, STARDUSTER, and expanded it
+                                        into something more significant. We're
+                                        currently planning its release. You can catch us in the photos from Spain's
+                                        Indie Dev Day, where we showcased the
+                                        project to the audience.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p id="show-comments" class="ms-1">View all 332 comments</p>
+                                </div>
+                                <div class="d-flex justify-content-between pe-4">
+                                    <div class="d-flex">
+                                        <h6 class="ms-1">indiedevday</h6>
+                                        <p class="ms-1">We loved playing your videogame!</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p id="time-info" class="ms-1">SEPTEMBER 10TH 2023</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+                <section id="post-side" class="border-bottom p-0 mt-4 bg-black">
+                    <article class="bg-black">
+                        <div id="post-top-bar" class="p-2 d-flex justify-content-between align-items-center">
+                            <div style="display: flex;">
+                                <div>
+                                    <img id="post-profile-story" src="../static/imgs/about-me/profile.jpeg" alt="">
+                                </div>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label class="d-inline ps-2">
+                                        <span id="post-nick">jrefusta</span>
+                                    </label>
+                                    <label class="d-inline ps-2">
+                                        <span id="show-comments">London, Amsterdam and Budapest</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <svg id="dots" aria-label="More options" class="_8-yf5 " color="white" fill="white"
+                                    height="24" role="img" viewBox="0 0 24 24" width="24">
+                                    <circle cx="12" cy="12" r="1.5"></circle>
+                                    <circle cx="6.5" cy="12" r="1.5"></circle>
+                                    <circle cx="17.5" cy="12" r="1.5"></circle>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="image-container">
+                            <img class="post" src="../static/imgs/about-me/travel_2.webp" id="post_7" alt="">
+                            <div class="next-photo" id="next_7"></div>
+                            <div class="prev-photo" id="prev_7"></div>
+
+                        </div>
+                        <div id="bottom-bar">
+                            <div class="mt-3"><svg class="buttons" id="like_7" aria-label="Like" color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                    </path>
+                                </svg>
+
+                                <svg class="buttons" id="liked_7" aria-label="Like" color="#ffffff" fill="#ffffff"
+                                    width="24" height="24" role="img" viewBox="0 0 48 48"
+                                    style="display: none; margin-left: 1rem;">
+                                    <image id="Capa_1" y="0" width="48" height="48"
+                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABYCAYAAAADWlKCAAACj0lEQVR4nO2dW3KDMAxFgel+uoXuf1N0ho4pCbYxth5X5J6v/gQknYgY29B5/f6ZFFkbDz1rBtFIa6wJlZi/hI93N6nS5ywE9caa+7xYvBJCRhO7Oqa0HOh4R4RoJFY7z6iYEPEugye1ZORyGCbeux3ikVju/K3fvmjx3uoQ7+SOtMQSLd6NViFIySVqMUWLd6dFCGJyiVxs0eJ94UoIcnKJtfA3KtUYa0IiJJfwGkn1Uoy1JCRSclHJ1rj3PoQokRPC7rDjVGt2CBjvQtgd9rzUnB0CxlEIu8OPvfbsEDCSEHaHP5sDdggYFALGwssVFCs7BAwKAYNCwKAQMCgEDAoBg0LAoBAwKAQMCgGDQsCgEDAoBAwKAYNCwKAQMBaQR5LJHzM7BAwKASMJ4WXLn80BOwSMoxB2iR977dkhYLwLYZfY81JzdggYOSHsEjtOtS51CKXok60xL1lg1ISwS/Qo1vaqQyhFnmpNWy5ZlCLHZS1bf0MoZZymGt75UaeUflTeKDdRShe3atYz7KWUdm7Xqvc+hFKuMX1N7EQpVbprM3qnTilnhmoiMXVCKf8M10JqLotShGogObn4yVLEcpee7f00KbN0zhrT7+JBgqKSo+Z6yJOlqOWmvUD1RCmqOVmsGD5JinouVku4T5BikoPlmnpUKaaDFOtNDtGkmMfrseskihSXOL22AaHfq7jF5r0vC1GKa0wIG+WQpLjHgrJzEUEKxBcDaSupZ0FguhRtb69HYaB+xxA3W1sWCG5QIf3vu6VIhdJ66zbskBv9cQSNwkHfmEZ4PkSygPCzBFEe2JEoZIgpm0hPUI0UNMykZrRH2noKG2qGGXWUVaN1BBZy/SWikERJTNzVyWmafgHRqzxWkCtkGAAAAABJRU5ErkJggg==" />
+                                </svg>
+
+                                <svg class="buttons" aria-label="Comment" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd"></path>
+                                </svg>
+                                <svg class="buttons" aria-label="Share Post" class="_8-yf5 " color="#ffffff"
+                                    fill="#ffffff" height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                                <svg class="buttons" aria-label="Save" class="_8-yf5 " color="#ffffff" fill="#ffffff"
+                                    height="24" role="img" viewBox="0 0 48 48" width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+
+                            <div class="d-flex mt-2 ms-2 ps-2">
+                                <img class="border me-2" id="subtitle-profile" src="../static/imgs/about-me/tina.webp"
+                                    alt="">
+                                <p>Liked by <span id="weight-600">friend</span> and <span id="weight-600">825
+                                        others</span></p>
+                            </div>
+                            <div class="lh-1" style="margin: 0%  2%;">
+                                <div class="d-flex flex-wrap">
+                                    <h6 class="ms-1">jrefusta</h6>
+                                    <p style="text-align: justify;  flex-basis: 100%; line-height: 1.5;" class="ms-1">
+
+                                        Additionally, I've had the opportunity to explore international destinations
+                                        such as London, Amsterdam, and Budapest.✈<br><br>
+                                        I particularly enjoyed exploring places further from home., and I am eager to
+                                        continue
+                                        discovering new places and cultures
+                                        around the globe.🌍
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p id="show-comments" class="ms-1">View all 88 comments</p>
+                                </div>
+                                <div class="d-flex justify-content-between pe-4">
+                                    <div class="d-flex">
+                                        <h6 class="ms-1">friend</h6>
+                                        <p class="ms-1">looks like an amazing adventure!</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p id="time-info" class="ms-1">NOVEMBER 19TH 2023</p>
+                                </div>
+                            </div>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="credits" class="credits" style="display: none;">
+        <div class="title-bar" id="titleBar">
+            <div class="title">Credits</div>
+            <div class="window-controls">
+                <div class="window-button restore"></div>
+                <div class="window-button minimize"></div>
+                <div class="window-button close"></div>
+            </div>
+        </div>
+        <div id="credits-content" style="font-family: Consolas, monospace; font-size: 13px;" class="content">
+            Joan OS [Version 05.06.1997]<br>
+            (c) Joan OS. All rights reserved.<br><br>
+            C:\Users\Joan\Documents\Credits&gt; ls<br><br>
+            <div id="credits_credits" style="display: block;">
+                <pre style="font-family: Consolas, monospace; font-size: 13px; overflow: hidden; display: flex;">
+                    <a id="credits_button" class="credits-selected">Credits</a>
+                    <a id="inspiration_button" class="credits-section">Inspiration</a>
+                    <a id="resources_button" class="credits-section" >Resources</a>
+                    <a id="special_thanks_button" class="credits-section">Special Thanks</a>
+                </pre>
+                C:\Users\Joan\Documents\Credits&gt; cat Credits<br><br>
+                <div style="text-align: center; font-size: 13px; font-family: Consolas, monospace;">
+                    Engineering<br><br><span style="margin-left:150px; float: left;">Design and programming
+                    </span><span style="margin-right:150px;float: right;">Joan Ramos Refusta
+                    </span><br><br>Modeling & Texturing<br><br>
+                    <span style="margin-left:150px; float: left;">Texturing, Lighting & Composition</span><span
+                        style="margin-right:150px;float: right;">Joan Ramos Refusta
+                    </span><br><span style="margin-left:150px; float: left;">Modeling</span><span
+                        style="margin-right:150px;float: right;">Joan Ramos Refusta & External Resources
+
+                    </span><br><br>Software & Tools<br><br>
+                    ThreeJS <br>Blender <br>Photoshop <br>
+                </div>
+            </div>
+            <div id="credits_inspiration" style="display: none;">
+                <pre style="font-family: Consolas, monospace; font-size: 13px; overflow: hidden; display: flex;">
+                    <a id="credits_button" class="credits-section">Credits</a>
+                    <a id="inspiration_button" class="credits-selected">Inspiration</a>
+                    <a id="resources_button" class="credits-section" >Resources</a>
+                    <a id="special_thanks_button" class="credits-section">Special Thanks</a>
+                </pre>
+                C:\Users\Joan\Documents\Credits&gt; cat Inspiration<br><br>
+                <div style="text-align: center; font-size: 13px; font-family: Consolas, monospace;">
+                    Inspiration websites<br><br><span style="margin-left:150px; float: left;">Bruno Simon - Three JS
+                        Journey</span><span style="margin-right:150px;float: right;"><a
+                            href="https://threejs-journey.com/" target="_blank" style="color: white;">
+                            https://threejs-journey.com/</a>
+                    </span><br>
+                    <span style="margin-left:150px; float: left;">Bruno Simon - My Room in 3D</span><span
+                        style="margin-right:150px;float: right;"><a href="https://my-room-in-3d.vercel.app/"
+                            target="_blank" style="color: white;">
+                            https://my-room-in-3d.vercel.app/</a>
+                    </span><br><span style="margin-left:150px; float: left;">Jesse Zhou - Jesse's Ramen</span><span
+                        style="margin-right:150px;float: right;"><a href="https://my-room-in-3d.vercel.app/"
+                            target="_blank" style="color: white;">
+                            https://jesse-zhou.com/</a>
+                    </span><br><span style="margin-left:150px; float: left;">Steven Lambert's Basic Games</span><span
+                        style="margin-right:150px;float: right;"><a href="https://gist.github.com/straker"
+                            target="_blank" style="color: white;">
+                            https://gist.github.com/straker</a>
+                    </span>
+                    </span><br><span style="margin-left:150px; float: left;">Acerola's Youtube channel</span><span
+                        style="margin-right:150px;float: right;"><a href="https://www.youtube.com/@Acerola_t"
+                            target="_blank" style="color: white;">
+                            https://www.youtube.com/@Acerola_t</a>
+                    </span><br>
+                    <br>
+                </div>
+            </div>
+            <div id="credits_resources" style="display: none;">
+                <pre style="font-family: Consolas, monospace; font-size: 13px; overflow: hidden; display: flex;">
+                    <a id="credits_button" class="credits-section">Credits</a>
+                    <a id="inspiration_button" class="credits-section">Inspiration</a>
+                    <a id="resources_button" class="credits-selected" >Resources</a>
+                    <a id="special_thanks_button" class="credits-section">Special Thanks</a>
+                </pre>
+                C:\Users\Joan\Documents\Credits&gt; cat Resources<br><br>
+                <div style="text-align: center; font-size: 13px; font-family: Consolas, monospace;">
+                    External Models<br>
+                    <br>"Low Poly Chess Set" (<a href="https://skfb.ly/6y8FI" target="_blank"
+                        style="color: white;">https://skfb.ly/6y8FI</a>) by hanoldaa is licensed under
+                    Creative Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>
+                    "Dumbbells" (<a href="https://skfb.ly/oxRx6" target="_blank"
+                        style="color: white;">https://skfb.ly/oxRx6</a>) by Kyn is licensed under Creative Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>
+                    "Yoga Mat" (<a href="https://skfb.ly/6QYTC" target="_blank"
+                        style="color: white;">https://skfb.ly/6QYTC</a>) by Jeremy E. Grayson is licensed under Creative
+                    Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>"ps5 controller" (<a href="https://skfb.ly/6RGLZ" target="_blank"
+                        style="color: white;">https://skfb.ly/6RGLZ</a>) by Fred Drabble is licensed under Creative
+                    Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>"BearBrick" (<a href="https://skfb.ly/6VSBG" target="_blank"
+                        style="color: white;">https://skfb.ly/6VSBG</a>) by O-Sushi is licensed under Creative Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>"pacman arcade machine" (<a href="https://skfb.ly/owTDr" target="_blank"
+                        style="color: white;">https://skfb.ly/owTDr</a>) by Musti575uz is licensed under Creative
+                    Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>"Simple Headphone" (<a href="https://skfb.ly/6UULI" target="_blank"
+                        style="color: white;">https://skfb.ly/6UULI</a>) by D31T7 is licensed under Creative Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>"Potted Plant" (<a href="https://skfb.ly/oKLQA" target="_blank"
+                        style="color: white;">https://skfb.ly/oKLQA</a>) by caridorka is licensed under Creative Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>"Monstera Deliciosa Potted Mid-Century plant" (<a href="https://skfb.ly/oAEoM" target="_blank"
+                        style="color: white;">https://skfb.ly/oAEoM</a>) by Giora is licensed under
+                    Creative Commons
+                    Attribution (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br>"PS5" (<a href="https://skfb.ly/6T7JX" target="_blank"
+                        style="color: white;">https://skfb.ly/6T7JX</a>) by rtql8d is licensed under Creative Commons
+                    Attribution
+                    (<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"
+                        style="color: white;">http://creativecommons.org/licenses/by/4.0/</a>).
+                    <br><br>
+                </div>
+
+            </div>
+            <div id="credits_special_thanks" style="display: none;">
+                <pre style="font-family: Consolas, monospace; font-size: 13px; overflow: hidden; display: flex;">
+                    <a id="credits_button" class="credits-section">Credits</a>
+                    <a id="inspiration_button" class="credits-section">Inspiration</a>
+                    <a id="resources_button" class="credits-section">Resources</a>
+                    <a id="special_thanks_button" class="credits-selected">Special Thanks</a>
+                </pre>
+                C:\Users\Joan\Documents\Credits&gt; cat Special Thanks<br><br>
+                <div style="text-align: center; font-size: 13px; font-family: Consolas, monospace;">
+                    Special Thanks<br><br>
+                    To everyone who has offered guidance and support throughout this project, especially to my
+                    family. &lt;3<br><br>
+                </div>
+            </div>
+            <a id="prev_button" style="margin-left:20px;float: left; display: none;" class="credits-selected">Prev</a>
+            <a id="next_button" style="margin-right:20px;float: right;padding-left: 10px; padding-right: 10px;"
+                class="credits-selected">Next</a>
+            <br>
+            <br> C:\Users\Joan\Documents\Credits&gt;<span style="font-weight: bold;" class="underscore">_</span>
+
+        </div>
+    </div>
+    <div id="contact" class="contact" style="display: none;">
+        <div class="title-bar" id="titleBar" style="background-color: #0078d7;">
+            <div class="title">Contact</div>
+            <div class="window-controls">
+                <div class="window-button-blue restore"></div>
+                <div class="window-button-blue minimize"></div>
+                <div class="window-button close"></div>
+            </div>
+        </div>
+        <div id="contact-content" style="font-family: Consolas, monospace; font-size: 13px;" class="content-light">
+            <p style="text-align: center;margin: 10px 10px; font-weight: bold; font-size:60px; color:black;">Get in
+                touch with me!
+            </p>
+            <p style="text-align: center;margin: 10px 10px; font-weight: bold; color:black;">Do you have
+                any questions or comments? I'm here to listen! Fill out the form below or email me directly at <a
+                    href="mailto:jrefusta@gmail.com">jrefusta@gmail.com</a>.</p>
+
+            <form id="form-contact">
+                <label for="nombre">Name</label>
+                <input type="text" id="form-name" name="nombre" required placeholder="Your name">
+
+                <label for="email">Your mail</label>
+                <input type="email" id="form-mail" name="email" required placeholder="example@mail.com">
+
+                <label for="mensaje">Message</label>
+                <textarea id="form-message" name="mensaje" rows="4" required placeholder="Your message"></textarea>
+                <div style="display: flex; align-items: center;">
+                    <input type="submit" value="Send Message">
+                    <p id="message_contact_success" style="margin: 10px 10px; font-weight: bold; display: none;">Your
+                        message has been sent
+                        succesfully!</p>
+                    <p id="message_contact_error" style="margin: 10px 10px; font-weight: bold; display: none;">Error.
+                        Please try to contact me
+                        through my personal
+                        e-mail: jrefusta@gmail.com</p>
+
+                </div>
+
+            </form>
+            <p style="text-align: center;margin: 10px 10px; ">All messages are sent directly to my personal account:
+
+                <a href="mailto:jrefusta@gmail.com">jrefusta@gmail.com</a>
+            </p><br>
+
+            <div style="text-align: center;">
+                <a href="https://www.linkedin.com/in/joan-ramos-refusta/" target="_blank" style="color: #0078d7;">
+                    <ion-icon style="margin:0 10px" size="large" name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://github.com/jrefusta" target="_blank" style="color: #0078d7;">
+                    <ion-icon style="margin:0 10px" size="large" name="logo-github"></ion-icon>
+                </a>
+                <a href="https://jrefusta.itch.io/" target="_blank" style="text-decoration: none;">
+                    <svg aria-label="Like" color="#ffffff" fill="#ffffff" style="margin:0 10px; margin-bottom:25px"
+                        height="32" width="32" viewBox="0 0 245.371 220.736">
+                        <path
+                            d="M31.99 1.365C21.287 7.72.2 31.945 0 38.298v10.516C0 62.144 12.46 73.86 23.773 73.86c13.584 0 24.902-11.258 24.903-24.62 0 13.362 10.93 24.62 24.515 24.62 13.586 0 24.165-11.258 24.165-24.62 0 13.362 11.622 24.62 25.207 24.62h.246c13.586 0 25.208-11.258 25.208-24.62 0 13.362 10.58 24.62 24.164 24.62 13.585 0 24.515-11.258 24.515-24.62 0 13.362 11.32 24.62 24.903 24.62 11.313 0 23.773-11.714 23.773-25.046V38.298c-.2-6.354-21.287-30.58-31.988-36.933C180.118.197 157.056-.005 122.685 0c-34.37.003-81.228.54-90.697 1.365zm65.194 66.217a28.025 28.025 0 0 1-4.78 6.155c-5.128 5.014-12.157 8.122-19.906 8.122a28.482 28.482 0 0 1-19.948-8.126c-1.858-1.82-3.27-3.766-4.563-6.032l-.006.004c-1.292 2.27-3.092 4.215-4.954 6.037a28.5 28.5 0 0 1-19.948 8.12c-.934 0-1.906-.258-2.692-.528-1.092 11.372-1.553 22.24-1.716 30.164l-.002.045c-.02 4.024-.04 7.333-.06 11.93.21 23.86-2.363 77.334 10.52 90.473 19.964 4.655 56.7 6.775 93.555 6.788h.006c36.854-.013 73.59-2.133 93.554-6.788 12.883-13.14 10.31-66.614 10.52-90.474-.022-4.596-.04-7.905-.06-11.93l-.003-.045c-.162-7.926-.623-18.793-1.715-30.165-.786.27-1.757.528-2.692.528a28.5 28.5 0 0 1-19.948-8.12c-1.862-1.822-3.662-3.766-4.955-6.037l-.006-.004c-1.294 2.266-2.705 4.213-4.563 6.032a28.48 28.48 0 0 1-19.947 8.125c-7.748 0-14.778-3.11-19.906-8.123a28.025 28.025 0 0 1-4.78-6.155 27.99 27.99 0 0 1-4.736 6.155 28.49 28.49 0 0 1-19.95 8.124c-.27 0-.54-.012-.81-.02h-.007c-.27.008-.54.02-.813.02a28.49 28.49 0 0 1-19.95-8.123 27.992 27.992 0 0 1-4.736-6.155zm-20.486 26.49l-.002.01h.015c8.113.017 15.32 0 24.25 9.746 7.028-.737 14.372-1.105 21.722-1.094h.006c7.35-.01 14.694.357 21.723 1.094 8.93-9.747 16.137-9.73 24.25-9.746h.014l-.002-.01c3.833 0 19.166 0 29.85 30.007L210 165.244c8.504 30.624-2.723 31.373-16.727 31.4-20.768-.773-32.267-15.855-32.267-30.935-11.496 1.884-24.907 2.826-38.318 2.827h-.006c-13.412 0-26.823-.943-38.318-2.827 0 15.08-11.5 30.162-32.267 30.935-14.004-.027-25.23-.775-16.726-31.4L46.85 124.08C57.534 94.073 72.867 94.073 76.7 94.073zm45.985 23.582v.006c-.02.02-21.863 20.08-25.79 27.215l14.304-.573v12.474c0 .584 5.74.346 11.486.08h.006c5.744.266 11.485.504 11.485-.08v-12.474l14.304.573c-3.928-7.135-25.79-27.215-25.79-27.215v-.006l-.003.002z"
+                            color="#0078d7" fill="#0078d7" />
+                    </svg>
+                </a>
+                <a href="https://twitter.com/jrefusta" target="_blank" style="color: #0078d7;">
+                    <ion-icon style="margin:0 10px" size="large" name="logo-twitter"></ion-icon>
+                </a>
+                <a href="mailto:jrefusta@gmail.com" target="_blank" style="color: #0078d7;">
+                    <ion-icon style="margin:0 10px" size="large" name="mail-outline"></ion-icon>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div id="experience" class="experience" style="display: none;">
+        <div class="title-bar" id="titleBar" style="background-color: black;">
+            <div class="title">Experience</div>
+            <div class="window-controls">
+                <div class="window-button restore"></div>
+                <div class="window-button minimize"></div>
+                <div class="window-button close"></div>
+            </div>
+        </div>
+        <div id="experience-content" class="content"
+            style="background-color: #141414; padding-top: 0; padding-left: 0; padding-right: 0; ">
+            <header>
+                <div style="display: inline-flex;">
+                    <p id="experience-title">EXPERIENCE</p>
+                    <nav class="links">
+                        <ul>
+                            <li><a>Home</a></li>
+                            <li><a>Experience</a></li>
+                            <li><a>My jobs</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <img class="header-image" src="../static/imgs/experience/smiley.webp" alt="Smiley">
+            </header>
+            <div class="company-selection">
+                <div class="company-logo" id="floorfy_company_logo">
+                    <img src="../static/imgs/experience/floorfy-logo.webp" alt="Floorfy">
+                </div>
+                <div class="company-logo" id="nomoko_company_logo">
+                    <img src="../static/imgs/experience/nomoko-logo.webp" alt="Nomoko">
+                </div>
+                <div class="company-logo">
+                    <img src="../static/imgs/experience/tba.webp" alt="TBA">
+                </div>
+                <div class="company-logo">
+                    <img src="../static/imgs/experience/tba.webp" alt="TBA">
+                </div>
+                <div class="company-logo">
+                    <img src="../static/imgs/experience/tba.webp" alt="TBA">
+                </div>
+                <div class="company-logo">
+                    <img src="../static/imgs/experience/tba.webp" alt="TBA">
+                </div>
+                <div class="company-logo">
+                    <img src="../static/imgs/experience/tba.webp" alt="TBA">
+                </div>
+            </div>
+            <div class="timeline" id="floorfy_timeline" style=" display:none">
+
+                <div class="timeline-item">
+                    <p style=" font-size: 30px; color: #de1310; font-family:  'BebasNeue', sans-serif;">FLOORFY S.L.
+                    </p>
+                    <p style="font-size: 12px; color: #b8b8b8;"> November 2020 - April 2022 (1 year and 5 months)
+                    </p>
+                    <p style="font-size: 14px; text-align: justify; width:90%">Floorfy SL is a leading company in
+                        virtual reality and 3D visualization technology, specialized in creating immersive
+                        experiences for the real estate industry. Based in Barcelona, Floorfy offers innovative
+                        solutions that allow customers
+                        to explore properties virtually through 3D tours, thus facilitating the visualization of spaces
+                        and decision-making in
+                        the process of buying or renting real estate.<br><br> Its WebGL platform, developed in Three.js,
+                        provides an intuitive and
+                        immersive experience on both desktop and mobile devices. Working at Floorfy SL provided valuable
+                        experience in the
+                        development of WebGL projects and the implementation of technological solutions for the real
+                        estate sector.
+                    </p>
+                    <br>
+                </div>
+                <div class="timeline-item">
+                    <h2 style=" color:#de1310; font-family:  'BebasNeue', sans-serif;">University Internship and Final
+                        Degree Project</h2>
+                    <p style="font-size: 12px; color: #b8b8b8;"> November 2020 - July 2021 (8 months)
+                    </p>
+                    <p style="font-size: 14px; text-align: justify; width:90%">
+                        During this period, I completed my Final Degree Project at FLOORFY. The company has a WebGL
+                        project developed in
+                        Three.js, enabling customers to embark on 3D virtual home tours from both computers and mobile
+                        devices. My
+                        responsibilities included creating a catalog featuring 3D models and implementing new
+                        functionalities for home
+                        furnishing.
+                        <br><br>
+
+                        Additionally, I designed a collision system from scratch capable of accommodating any 3D model
+                        in any room or
+                        environment, significantly enhancing the user experience.
+                        <br><br>
+                        Throughout this experience, I refined my skills in Three.js, JavaScript, GLSL Shaders, and 3D
+                        Mathematics, contributing
+                        to the project's success and acquiring new competencies.
+                        <br><br>
+                        Additionally, I achieved a final grade of 9.2 for my degree project. You can view the project <a
+                            style="color: white;" href="https://github.com/jrefusta/TFG-Amueblado-de-propiedades-en-3D"
+                            target="_blank">here</a>.
+
+                    </p>
+                    <br>
+                </div>
+                <div class="timeline-item">
+                    <p style=" font-size: 30px; color: #de1310; font-family:  'BebasNeue', sans-serif;">Software
+                        Engineer, 3D</p>
+                    <p style="font-size: 12px; color: #b8b8b8;"> July 2021 - April 2022 (9 months)
+                    </p>
+                    <p style="font-size: 14px; text-align: justify; width:90%">At Floorfy, I spearheaded the development
+                        of enhancements, new functionalities, and ongoing maintenance and optimization
+                        of the furnishing application. My role involved leveraging advanced 3D concepts such as
+                        lighting, shadows, and
+                        reflections, as well as employing rigorous 3D mathematics and optimization algorithms to
+                        streamline performance.
+                        <br><br>
+                        Additionally, I focused on optimizing geometries and textures to enhance visual fidelity and
+                        overall user experience.
+                        Using tools like Blender, WebGL, and GLSL Shaders, I played a pivotal role in elevating the
+                        application's
+                        capabilities and performance.
+
+                    </p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="timeline" style=" display:none" id="nomoko_timeline">
+
+                <div class="timeline-item">
+                    <p style=" font-size: 30px; color: #de1310; font-family:  'BebasNeue', sans-serif;">NOMOKO A.G.
+                    </p>
+                    <p style="font-size: 12px; color: #b8b8b8;"> August 2022 - November 2023 (1 year and 3 months)
+                    </p>
+                    <p style="font-size: 14px; text-align: justify; width:90%">Nomoko was a leading 3D visualization
+                        technology company based in Switzerland. It was known for developing innovative
+                        solutions that enable the creation of realistic virtual environments using advanced graphics
+                        rendering techniques.<br><br> Its
+                        focus was on providing immersive, high-quality experiences for a variety of applications,
+                        including architecture, real
+                        estate, and urban planning. Nomoko stood out for its ability to generate detailed and accurate
+                        three-dimensional models,
+                        offering its clients a unique and complete view of projects and spaces.
+                    </p>
+                    <br>
+                </div>
+                <div class="timeline-item">
+                    <h2 style=" color:#de1310; font-family:  'BebasNeue', sans-serif;">Junior 3D Frontend Developer</h2>
+                    <p style="font-size: 12px; color: #b8b8b8;"> August 2022 - July 2023 (11 months)
+                    </p>
+                    <p style="font-size: 14px; text-align: justify; width:90%">As a 3D Frontend Developer, I utilized
+                        JavaScript, React, and TypeScript in conjunction with Three.js to enhance the
+                        visualization of 3D models on the company's real estate website. During this period, I also
+                        liaised with the 3D model
+                        provider responsible for the level of detail of the models.
+                        <br><br>
+                        Additionally, I created several shaders in Three.js to achieve the desired appearance as
+                        specified by the designers. I
+                        developed tools to empower designers to directly manipulate and refine the aesthetics of the 3D
+                        models according to
+                        their vision.
+                        <br><br>
+                        Moreover, I integrated Mapbox into the development process, leveraging its capabilities to
+                        reference 3D models within
+                        the world context. This involved utilizing geometric and 3D mathematical concepts to accurately
+                        position and visualize
+                        models within the Mapbox environment.
+                        <br><br>
+                        Furthermore, I optimized code to improve performance and user experience, ensuring smooth
+                        interactions and fast loading
+                        times on the website.
+                    </p>
+                    <br>
+                </div>
+                <div class="timeline-item">
+                    <p style=" font-size: 30px; color: #de1310; font-family:  'BebasNeue', sans-serif;">3D Software
+                        Engineer</p>
+                    <p style="font-size: 12px; color: #b8b8b8;"> July 2023 - November 2023 (4 months)
+                    </p>
+                    <p style="font-size: 14px; text-align: justify; width:90%">
+                        As a 3D Software Engineer, I transitioned from frontend development to focus exclusively on 3D
+                        technologies. I joined
+                        the LOD (Level of Detail) model development team, specializing in visualization aspects. My
+                        primary responsibilities
+                        included rendering 3D models with varying levels of detail, dynamically adjusting based on
+                        camera position, geometry,
+                        and memory constraints.
+                        <br><br>
+                        Additionally, I collaborated on the development of a plugin to export models to various
+                        platforms, ensuring
+                        compatibility with Three.js for web-based visualization, as well as integrating geolocation
+                        features for Mapbox, Google
+                        Maps, and even Google Earth. Furthermore, we extended support for other graphics engines like
+                        Unity and Unreal Engine 5,
+                        enabling seamless integration across different platforms and applications.
+                        <br><br>
+                        During this period, I gained extensive experience in 3D rendering techniques, optimization
+                        strategies, and plugin
+                        development, contributing to the successful deployment of our solutions across a diverse range
+                        of platforms.
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
