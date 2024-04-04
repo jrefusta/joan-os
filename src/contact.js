@@ -12,7 +12,6 @@ class Contact {
     const name = document.getElementById("form-name").value;
     const mail = document.getElementById("form-mail").value;
     const msg = document.getElementById("form-message").value;
-    console.log("seeeenty");
     emailjs.init({
       publicKey: "N5dc30IL19RoqJaN6",
     });

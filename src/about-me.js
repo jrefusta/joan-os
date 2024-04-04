@@ -74,7 +74,6 @@ class AboutMe {
 
   deactivateEvents() {
     this.likeListeners.forEach(({ element, listener }) => {
-      console.log(element, listener);
       element.removeEventListener("click", listener);
     });
     this.likedListeners.forEach(({ element, listener }) => {

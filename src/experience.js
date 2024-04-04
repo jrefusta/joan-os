@@ -25,7 +25,6 @@ class Experience {
     });
   }
   handleClickOnCompany = (company) => {
-    console.log("clicked", company);
     const timelineString = company.id.replace("_company_logo", "_timeline");
     company.classList.add("company-logo-selected");
     this.companyLogos.forEach((companyLogo) => {
