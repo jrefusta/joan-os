@@ -128,7 +128,15 @@ aside .apps {
 
   max-height: 78px;
 }
-
+img {
+  user-select: none; /* Evita la selección de la imagen */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  draggable: false; /* Evita que la imagen sea arrastrada */
+  -moz-user-drag: none;
+  -webkit-user-drag: none;
+}
 .by a {
   color: #fff;
 }
