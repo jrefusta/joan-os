@@ -68,9 +68,13 @@ class Desktop {
   }
   activateMouseUpEvent = () => {
     document.addEventListener("mouseup", () => {
+      window.parent.postMessage("mouseup", "*");
       if (this.ds.stopped) {
         this.ds.start();
       }
+    });
+    document.addEventListener("mousedown", () => {
+      window.parent.postMessage("mousedown", "*");
     });
   };
 
@@ -209,7 +213,7 @@ class Desktop {
     if (appName == "resume") {
       window.open(Resume);
     } else if (appName == "project") {
-      window.parent.postMessage("Mensaje desde el iframe", "*");
+      window.parent.postMessage("Projects", "*");
     } else {
       this.openWindow(appName);
     }
