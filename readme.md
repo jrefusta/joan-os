@@ -1,9 +1,20 @@
-# My Room in 3D
+# Joan's OS
+
+This is the most personal section of my portfolio, where I've created a simulated Windows OS with various desktop tools and references. Through this project, I aim to showcase not only my personal interests but also my skills in HTML and CSS. It's a reflection of both my personal life and my experience as a developer.
 
 ## Links
 
-- [GitHub](https://github.com/brunosimon/my-room-in-3d)
-- [Live](https://my-room-in-3d.vercel.app)
+### Joan's Arcade Machine
+- [Source Code](https://github.com/jrefusta/joan-arcade-machine)
+- [Live Demo](https://joan-arcade-machine.vercel.app/)
+
+### Joan's OS
+- [Source Code](https://github.com/jrefusta/joan-os)
+- [Live Demo](https://joan-os.vercel.app/)
+
+### Joan's Art Gallery
+- [Source Code](https://github.com/jrefusta/joan-art-gallery)
+- [Live Demo](https://joan-art-gallery.vercel.app/)
 
 ## Setup
 
