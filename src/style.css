@@ -133,7 +133,6 @@ img {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  draggable: false;
   -moz-user-drag: none;
   -webkit-user-drag: none;
 }
