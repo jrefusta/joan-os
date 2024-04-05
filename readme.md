@@ -8,9 +8,9 @@ This is the most personal section of my portfolio, where I've created a simulate
 - [Source Code](https://github.com/jrefusta/joan-arcade-machine)
 - [Live Demo](https://joan-arcade-machine.vercel.app/)
 
-### Joan's OS
-- [Source Code](https://github.com/jrefusta/joan-os)
-- [Live Demo](https://joan-os.vercel.app/)
+### Joan Ramos Refusta's Portfolio
+- [Source Code](https://github.com/jrefusta/joan-portfolio)
+- [Live Demo](https://joanramosrefusta.com/)
 
 ### Joan's Art Gallery
 - [Source Code](https://github.com/jrefusta/joan-art-gallery)
