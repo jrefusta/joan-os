@@ -2,6 +2,7 @@
 
 This is the most personal section of my portfolio, where I've created a simulated Windows OS with various desktop tools and references. Through this project, I aim to showcase not only my personal interests but also my skills in HTML and CSS. It's a reflection of both my personal life and my experience as a developer.
 
+You can now explore it [here](https://joan-os.app/).
 ## Links
 
 ### Joan's Arcade Machine
